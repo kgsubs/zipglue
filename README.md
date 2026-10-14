@@ -1,4 +1,4 @@
-# ZipKnit
+# ZipGlue
 
 Some services send a big download as several separate ZIP files. This tool unpacks all of them into one folder, so you get back a single complete copy with the original folders intact.
 
@@ -28,8 +28,8 @@ Python 3.9+, standard library only. Nothing to install.
 ## Usage
 
 ```bash
-python zipknit.py /path/to/zips /path/to/output
-python zipknit.py /path/to/zips   # output defaults to ./output
+python zipglue.py /path/to/zips /path/to/output
+python zipglue.py /path/to/zips   # output defaults to ./output
 ```
 
 Put all the ZIP parts in one folder, point the tool at it, and type `y` to confirm.
