@@ -33,3 +33,7 @@ python zipglue.py /path/to/zips   # output defaults to ./output
 ```
 
 Put all the ZIP parts in one folder, point the tool at it, and type `y` to confirm.
+
+## License
+
+MIT
